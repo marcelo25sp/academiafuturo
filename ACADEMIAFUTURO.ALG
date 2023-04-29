@@ -3,19 +3,24 @@ Algoritmo "AcademiaFuturo"
 Var
 
    aluno : caractere
-   nasc,ano,idade : inteiro
+   peso,altura,imc : real
 
 Inicio
 
-      Escreval("Bem vindo(a) a academia Futuro")
-      Escreval("Digite o nome do aluno:")
+      Escreval("Bem vindo(a) a Academia Futuro")
+      Escreval("Digite o seu nome")
       Leia(aluno)
-      Escreval("Digite o ano de nascimento do aluno:")
-      Leia(nasc)
-      Escreval("Em que ano estamos?")
-      Leia(ano)
-      idade <- ano-nasc
-      Escreval(idade)
+      Escreval("Bem vindo(a) ",aluno)
+      Escreval("Qual a altura?")
+      Leia(altura)
+      Escreval("Qual o peso?")
+      Leia(peso)
+      imc <- peso/(altura*altura)
+      Escreval("O seu imc é: ", imc:4:2)
+      
+      
+
+
       
 
 Fimalgoritmo
