@@ -8,7 +8,9 @@ Var
 Inicio
 
       Escreval("==============================")
+      Escreval("==============================")
       Escreval("Bem vindo(a) a Academia Futuro")
+      Escreval("==============================")
       Escreval("==============================")
       Escreval("Digite o seu nome")
       Leia(aluno)
