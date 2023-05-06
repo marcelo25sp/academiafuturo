@@ -4,6 +4,7 @@ Var
 
    aluno : caractere
    peso,altura,imc : real
+   idade : inteiro
 
 Inicio
 
@@ -14,7 +15,9 @@ Inicio
       Escreval("==============================")
       Escreval("Digite o seu nome")
       Leia(aluno)
-      Escreval("Bem vindo(a) ",aluno)
+      Escreval("Qual a idade?")
+      Leia(idade)
+      Escreval("Bem vindo(a) ",aluno,idade, " anos.")
       Escreval("Qual a altura?")
       Leia(altura)
       Escreval("Qual o peso?")
